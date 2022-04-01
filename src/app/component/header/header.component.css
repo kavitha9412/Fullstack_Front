@@ -1,0 +1,45 @@
+.navbar{
+    background-color:white;  
+}
+
+.form-control{
+    width: 402px;
+    margin-left: 400px;
+    border-radius: 0px;
+    margin-top: 10px;
+    height: 39px;
+}
+
+.fa-search{
+    position: absolute;
+    z-index: 1;
+    right: 43%;
+    top: 29%;
+    color: white;
+    background-color: rgb(235, 172, 41);
+    padding: 9px;
+    margin-top: -8px;
+    margin-right: -16px;
+}
+
+.fa-search:hover{
+    background: rgb(199, 140, 18);
+}
+
+.btn-primary {
+    
+    background-color: var(--button-background-color);
+    border-color: var(--button-background-color);
+    margin-right: 10%;
+    border: none;
+  }
+
+
+.btn-primary:hover{
+    background: rgb(195, 195, 195);
+    border-radius: 0;
+}
+.fa-cart-plus{
+    left: 95%;
+    color: black;
+}

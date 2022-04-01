@@ -1,0 +1,25 @@
+.navbar{
+    background-color:black; 
+    height: 50px; 
+}
+
+.menu li{
+    display: inline;
+    margin-right: 35%;
+}
+  
+.menu li a{
+	color:white;
+	font-size: 16px;
+	padding: 10px 60px;
+	border-radius: 0px;
+	text-transform: uppercase;
+    
+	
+}
+
+/*Couleur de fond des catégories quand on passe la souris dessus*/
+a.menu,a:hover{
+	background: rgb(199, 140, 18);
+	transition: .5s;
+} 
