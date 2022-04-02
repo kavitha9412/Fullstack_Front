@@ -9,6 +9,7 @@ import { BarComponent } from './component/bar/bar.component';
 import { BannerComponent } from './component/banner/banner.component';
 import { ProductsComponent } from './component/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
+import { PanierComponent } from './component/panier/panier.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     BarComponent,
     BannerComponent,
-    ProductsComponent
+    ProductsComponent,
+    PanierComponent
   ],
   imports: [
     BrowserModule,

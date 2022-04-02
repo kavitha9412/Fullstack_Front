@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("https://static.vecteezy.com/system/resources/thumbnails/002/006/775/small/paper-art-shopping-online-on-smartphone-and-new-buy-sale-promotion-backgroud-for-banner-market-ecommerce-free-vector.jpg") no-repeat;
+    background: url(banner.PNG) no-repeat;
     background-position: center;
     background-size:cover;
 }

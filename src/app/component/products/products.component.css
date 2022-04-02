@@ -1,0 +1,30 @@
+.container{
+    background-color: rgba(164, 208, 241, 0.756);
+}
+
+.card{
+    padding: 10px;
+    margin: 40px;
+
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    margin-left: 17%;
+}
+
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.btn-primary{
+    background-color: rgb(251, 156, 2);
+    border-color: rgb(251, 156, 2);
+    border-radius: 0px;
+}
+.btn-primary:hover{
+    background: rgb(199, 140, 18);
+}
