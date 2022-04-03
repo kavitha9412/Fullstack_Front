@@ -4,8 +4,22 @@
     width: 500px;
     padding: 40px;
     position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    background: rgb(254, 180, 3);
+    background: linear-gradient(90deg, rgb(254, 180, 3),rgb(248,109,4) 100%);
+
+}
+
+.card2{
+    margin-top: 20px;
+    border: none;
+    width: 500px;
+    padding: 40px;
+    position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
     background: rgb(254, 180, 3);
     background: linear-gradient(90deg, rgb(254, 180, 3),rgb(248,109,4) 100%);
