@@ -17,7 +17,15 @@
                           <label for="exampleInputPassword1" class="form-label">Mot de Passe</label>
                           <input type="password" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" class="btn btn-primary">Se connecter</button>
+                      <div class="row">
+                        <div class="col">
+                          <button type="submit" class="btn btn-primary">Se connecter</button>
+                        </div>
+                        <div class="col">
+                          <button class="btn btn-info" [routerLink]="['/inscription']" style="float: right;">Inscription</button>
+                        </div>
+                      </div>
+
                       </form>
                 </form>
             </div>

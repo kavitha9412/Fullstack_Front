@@ -9,18 +9,18 @@
                 <input type="text" class="form-control" placeholder="Rechercher">
             </div>
             <span class="fas fa-search search-icone"></span>
-            
-            
+
+
         </div>
 
-        <button class="btn btn-primary">
+        <button class="btn btn-primary" [routerLink]="['']">
             <i style="font-size: 30px;" class="fas fa-home"></i>
         </button>
-        <button class="btn btn-primary">
+        <button class="btn btn-primary"[routerLink]="['/panier']">
             <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
             <div style="font-size: 10px;" class="badge bg-danger">5</div>
         </button>
-        <button class="btn btn-primary">
+        <button class="btn btn-primary"[routerLink]="['/connexion']">
             <i style="font-size: 30px;" class="fas fa-user"></i>
         </button>
 
@@ -34,9 +34,9 @@
                 <li>Electronique</li>
                 <li>Bijoux</li>
                 <li>Maison</li>
-              </ul>     
+              </ul>
          </nav>
     </div>
-    
+
 </header>
 
