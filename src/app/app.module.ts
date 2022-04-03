@@ -8,6 +8,8 @@ import { FooterComponent } from './component/footer/footer.component';
 import { ProductsComponent } from './component/products/products.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PanierComponent } from './component/panier/panier.component';
+import { InscriptionComponent } from './component/inscription/inscription.component';
+import { ConnexionComponent } from './component/connexion/connexion.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { PanierComponent } from './component/panier/panier.component';
     HeaderComponent,
     FooterComponent,
     ProductsComponent,
-    PanierComponent
+    PanierComponent,
+    InscriptionComponent,
+    ConnexionComponent
   ],
   imports: [
     BrowserModule,

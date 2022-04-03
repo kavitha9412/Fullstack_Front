@@ -11,6 +11,9 @@
     display: flex;
     flex-wrap: wrap;
     
+    bottom: 0%;
+    width: 100%;
+    
 }
 
 ul{
