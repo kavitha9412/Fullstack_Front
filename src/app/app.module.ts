@@ -10,6 +10,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { PanierComponent } from './component/panier/panier.component';
 import { InscriptionComponent } from './component/inscription/inscription.component';
 import { ConnexionComponent } from './component/connexion/connexion.component';
+import { PaiementComponent } from './component/paiement/paiement.component';
+import { AdminProductComponent } from './component/admin-product/admin-product.component';
+import { AdminConnexionComponent } from './component/admin-connexion/admin-connexion.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { ConnexionComponent } from './component/connexion/connexion.component';
     ProductsComponent,
     PanierComponent,
     InscriptionComponent,
-    ConnexionComponent
+    ConnexionComponent,
+    PaiementComponent,
+    AdminProductComponent,
+    AdminConnexionComponent
   ],
   imports: [
     BrowserModule,

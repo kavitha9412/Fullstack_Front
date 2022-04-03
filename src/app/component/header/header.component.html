@@ -1,4 +1,5 @@
 <header>
+    
     <div class="navbar">
         <div class="navbar-brand align-item-center d-flex">
             <i style="font-size: 55px">&nbsp;
@@ -13,16 +14,27 @@
 
         </div>
 
-        <button class="btn btn-primary" [routerLink]="['']">
-            <i style="font-size: 30px;" class="fas fa-home"></i>
-        </button>
-        <button class="btn btn-primary"[routerLink]="['/panier']">
-            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
-            <div style="font-size: 10px;" class="badge bg-danger">5</div>
-        </button>
-        <button class="btn btn-primary"[routerLink]="['/connexion']">
-            <i style="font-size: 30px;" class="fas fa-user"></i>
-        </button>
+        <div class="topmenu">
+            <button class="btn btn-primary" [routerLink]="['']">
+                <i style="font-size: 30px;" class="fas fa-home"></i>
+                <div id="tooltipText">Accueil</div>
+            </button>
+            <button class="btn btn-primary"[routerLink]="['/panier']">
+                <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+                <div style="font-size: 10px;" class="badge bg-danger">5</div>
+                <div id="tooltipText">Panier</div>
+            </button>
+            <button class="btn btn-primary"[routerLink]="['/connexion']">
+                <i style="font-size: 30px;" class="fas fa-user"></i>
+                <div id="tooltipText">Mon Compte</div>
+            </button>
+
+            <button class="btn btn-primary"[routerLink]="['/admin-connexion']">
+                <i style="font-size: 30px; color:rgb(27, 113, 225)" class="fas fa-user"></i>
+                <div id="tooltipText">Admin</div>
+            </button>
+
+        </div>
 
     </div>
 

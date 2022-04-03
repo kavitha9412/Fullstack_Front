@@ -40,19 +40,21 @@
     border-radius: 0;
 }
 .fa-cart-plus{
-    margin-bottom: 20%;
     color: black;
 }
 
 .fa-user{
-    margin-bottom: 25%;
     color: black;
 }
 
 .fa-home{
-    margin-bottom: 25%;
     color: black;
 }
+
+.topmenu{
+    display: inline-flex;
+}
+
 
 /* BARRE DE NAVIGATION */
 
@@ -81,4 +83,9 @@
 	margin-left:2%;
 	text-transform: uppercase;
 	
+}
+
+.menu nav ul li:hover{
+	background: rgb(199, 140, 18);
+	transition: .5s;
 }
