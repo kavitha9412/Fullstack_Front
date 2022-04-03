@@ -1,1 +1,61 @@
-<p>panier works!</p>
+<div class="panier">
+    <a>
+        <img src="panier.PNG">
+    </a>
+
+</div>
+
+<ng-container *ngIf="true">
+    
+
+    <div class="classe container">
+        <div class="card-table">
+            <div class="produits-panier">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Sr.No</th>
+                            <th>Nom du Produit</th>
+                            <th>Image Produit</th>
+                            <th>Prix</th>
+                            <th>Quantité</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Iphone</td>
+                            <td>Img</td>
+                            <td>1000</td>
+                            <td>1</td>
+                            <td>1000</td>
+                            <td>
+                                <button class="btn btn-danger"><i class="fas fa-trash"></i></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+
+<ng-container *ngIf="false">
+    <div class="container">
+        <div class="card">
+            <h5 class="card-titre">Mon Panier</h5>
+        </div>
+        <div class="center">
+            <img src="https://www.webtoffee.com/wp-content/themes/webtoffee/assets/images/empty-cart.svg" alt="">&nbsp;&nbsp;
+            
+                <h4>Votre panier est vide!</h4>
+                <h6>Ajouter des produits</h6>
+                <button class="btn btn-primary">Ajouter</button>
+            
+        </div>
+    </div>
+</ng-container>
+ 
